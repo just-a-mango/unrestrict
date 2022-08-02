@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "unrestrict",
+  "version": "ALPHA",
+
+  "name": "Unrestrict",
+  "description": "Unrestrict removes the new controversial reporting features introduced by Mojang in 1.19.1",
+  "authors": [
+    "Just_a_Mango"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/unrestrict/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mango.unrestrict.Unrestrict"
+    ]
+  },
+  "mixins": [
+    "unrestrict.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

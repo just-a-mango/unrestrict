@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mango.unrestrict.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ChatAbuseReportMixin",
+    "ChatReportScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
