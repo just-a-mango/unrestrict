@@ -26,7 +26,7 @@ public class ChatReportScreenMixin {
 	}
 	/**
 	 * @author Just_a_Mango
-	 * @reason Remove all of Mojang's shit
+	 * @reason Immediately close the screen as it opens (NOT TESTED; MIGHT CRASH)
 	 */
 	@Overwrite
 	protected void init() {
