@@ -8,7 +8,7 @@
   "authors": [
     "Just_a_Mango"
   ],
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/unrestrict/icon.png",
 
   "environment": "*",
